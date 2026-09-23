@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use LRDG-Net, please cite the accompanying manuscript and this software."
+title: "LRDG-Net"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Xiong
+    given-names: Huapeng
+  - family-names: Pei
+    given-names: Zhongwen
+  - family-names: Zhang
+    given-names: Guanyu
+  - family-names: Lu
+    given-names: Shaoan
+  - family-names: Wu
+    given-names: Zhijun
+abstract: "Research code for LiDAR cover contamination recognition using local relative degradation and centered geometric representations."
+keywords:
+  - LiDAR
+  - point cloud
+  - contamination recognition
+  - domain generalization
+  - operating-point calibration
+contact:
+  - family-names: Wu
+    given-names: Zhijun
+    email: zjwu@tongji.edu.cn

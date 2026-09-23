@@ -1,0 +1,2 @@
+# Optional dependency used only by the AutoGrAN baseline.
+torch-geometric

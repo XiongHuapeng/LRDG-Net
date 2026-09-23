@@ -1,0 +1,2 @@
+﻿model_name,direction_macro_f1_mean,worst_direction_macro_f1,direction_macro_f1_std,direction_fnr_mean,direction_fpr_mean,directions
+LRDG-Net,0.9885686531972887,0.964922445902355,0.01771629794336035,0.025181391378574475,0.0,6

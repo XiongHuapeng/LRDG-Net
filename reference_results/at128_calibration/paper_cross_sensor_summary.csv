@@ -1,0 +1,4 @@
+﻿setting,clean_calibration_pcaps,target_contaminated_labels_used,network_retraining,held_out_test_distances,source_models,evaluation_runs,macro_f1_mean,macro_f1_std_across_distances,worst_seed_macro_f1,worst_distance_macro_f1,fpr_mean,fnr_mean,auroc_mean,calibration_choice_success_rate,combo_macro_f1_p05,worst_combo_macro_f1
+K0_raw,0,False,False,13,3,39,0.4285714285714286,5.777783805466598e-17,0.4285714285714286,0.42857142857142855,1.0,0.0,1.0,,,
+K1_clean_norm,1,False,False,13,3,468,0.9914529914529915,0.02208516370798332,0.9816849816849819,0.9206349206349207,0.01495726495726496,0.0,1.0,0.9850427350427351,1.0,0.42857142857142855
+K3_clean_norm,3,False,False,13,3,8580,0.9999333999333999,0.00024012995507583632,0.9998001998001999,0.9991341991341992,0.00011655011655011655,0.0,1.0,0.9998834498834499,1.0,0.42857142857142855

@@ -1,0 +1,6 @@
+﻿variant,model,geometry,degradation,pooling
+E0_G,Geometry only,centered_12D,none,mean
+E1_A,Absolute degradation only,none,absolute,mean
+E2_R,Relative degradation only,none,relative,mean
+E3_GA,Geometry + absolute degradation,centered_12D,absolute,mean
+E4_GR,Geometry + relative degradation (LRDG-Net),centered_12D,relative,mean

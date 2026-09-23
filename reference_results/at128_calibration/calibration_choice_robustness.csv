@@ -1,0 +1,3 @@
+﻿setting,clean_calibration_pcaps,runs,source_models,held_out_distances,perfect_run_rate,macro_f1_mean,macro_f1_p05,macro_f1_worst_combo,fpr_mean,fnr_mean
+K1_clean_norm,1,468,3,13,0.9850427350427351,0.9914529914529915,1.0,0.42857142857142855,0.014957264957264958,0.0
+K3_clean_norm,3,8580,3,13,0.9998834498834499,0.9999333999334,1.0,0.42857142857142855,0.00011655011655011655,0.0

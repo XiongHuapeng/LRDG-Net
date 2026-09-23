@@ -1,0 +1,43 @@
+{
+  "protocol_id": "at128_clean_reference_lodo_exhaustive_v1",
+  "protocol": "AT128 clean-reference robust location-scale calibration with exhaustive outer LODO evaluation",
+  "config": {
+    "calibration_budgets": [
+      1,
+      3
+    ],
+    "exhaustive_calibration_choices": true,
+    "scale_eps": 1e-06,
+    "overwrite": false
+  },
+  "source_reference": "LIDAROC training clean frames",
+  "source_threshold_selection": "LIDAROC validation sessions; maximize Macro-F1; tie -> lower FPR -> lower |threshold|",
+  "target_calibration": "known-clean AT128 frame margins only",
+  "outer_evaluation": "leave one complete AT128 distance block out; test all condition 0/1/2/3 PCAPs at that distance",
+  "k1_calibration": "exhaust all one-clean-PCAP choices from non-test distances",
+  "k3_calibration": "exhaust all three-clean-PCAP combinations from non-test distances",
+  "target_contaminated_labels_used_for_calibration": false,
+  "network_retraining": false,
+  "at128_inference_rerun": false,
+  "k0_pcap_decision": "mean frame logit margin >= 0",
+  "pcap_aggregation": "mean calibrated frame score",
+  "available_distances_m": [
+    8.0,
+    9.0,
+    10.0,
+    11.0,
+    12.0,
+    13.0,
+    14.0,
+    15.0,
+    16.0,
+    17.0,
+    18.0,
+    19.0,
+    20.0
+  ],
+  "held_out_distance_blocks": 13,
+  "k1_choices_per_outer_fold": 12,
+  "k3_choices_per_outer_fold": 220,
+  "statistical_note": "calibration choices are repeated evaluations of the same held-out physical distance block and are not treated as independent test sets"
+}

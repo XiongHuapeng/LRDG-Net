@@ -1,0 +1,1 @@
+"""Protocol-aligned baseline comparison."""
